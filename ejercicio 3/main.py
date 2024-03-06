@@ -33,9 +33,9 @@ def main():
 
         option = int(input('Digite una Opcion: '))
 
-        if option == 1:
+        if option == '1':
             registro_productos()
-        elif option == 2:
+        elif option == '2':
             break
         else:
             print('Opcion Invalida.')
